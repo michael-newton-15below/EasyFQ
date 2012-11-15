@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "EasyFQ", "EasyFQ\EasyFQ.fsproj", "{37C40659-0087-4F5B-BF32-3D31F1615200}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "EasyFQ.Tests", "EasyFQ.Tests\EasyFQ.Tests.fsproj", "{4A1E0026-56BF-49A7-8F87-A77154008060}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,10 +13,6 @@ Global
 		{37C40659-0087-4F5B-BF32-3D31F1615200}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37C40659-0087-4F5B-BF32-3D31F1615200}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37C40659-0087-4F5B-BF32-3D31F1615200}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4A1E0026-56BF-49A7-8F87-A77154008060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4A1E0026-56BF-49A7-8F87-A77154008060}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4A1E0026-56BF-49A7-8F87-A77154008060}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4A1E0026-56BF-49A7-8F87-A77154008060}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -39,4 +39,4 @@ tokenSource.Cancel ()
 
 let endTime = System.DateTime.Now
 
-printfn "%A" (endTime - startTime)
+printfn "Total time: %A" (endTime - startTime)
