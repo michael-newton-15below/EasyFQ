@@ -40,3 +40,6 @@ tokenSource.Cancel ()
 let endTime = System.DateTime.Now
 
 printfn "Total time: %A" (endTime - startTime)
+((endTime.Ticks - startTime.Ticks) / int64 100000)
+|> System.TimeSpan.FromTicks
+|> printfn "Time per message: %A" 
